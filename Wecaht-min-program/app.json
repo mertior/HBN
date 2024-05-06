@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/list/list",
+    "pages/play/play",
+    "pages/homepage",
+    "pages/homepage/homepage",
+    "pages/test",
+    "pages/Test/Test",
+    "pages/musicListName/musicListName",
+    "pages/playList/playList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QQ音乐播放器",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#7777"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "List"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "Search"
+      },
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "Homepage"
+      }
+    ],
+    "position": "top",
+    "selectedColor": "#FF6868",
+    "color": "#666"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap72.json"
+}

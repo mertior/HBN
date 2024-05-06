@@ -1,0 +1,9 @@
+<!--pages/musicListName/musciListName.wxml-->
+<view class="container">
+  <view class="list-container">
+    <block wx:for="{{musicListName}}" wx:key="index" >
+      <view bind:tap="checkPlayList" data-id="{{item.musicPlayListName}}" class="list-item">{{item.musicPlayListName}}</view>
+    </block>
+  </view>
+  <button class="add-btn" bindtap="addItem">添加列表项</button>
+</view>

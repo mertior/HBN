@@ -1,0 +1,9 @@
+<!--pages/Test/Test.wxml-->
+<view>
+    <iconfont 
+        type = "{{icon}}" 
+        bind:tap="fnActive"
+        data-favourite = "{{isLike}}"
+        class = "beforeSelected {{isLike === true ? 'active' : ''}}"
+    ></iconfont>
+</view>

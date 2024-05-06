@@ -1,0 +1,8 @@
+<!--pages/playList/playList.wxml-->
+<view>
+  <songItem wx:for="{{musicList}}" 
+  wx:key="index" 
+  songList="{{item}}" 
+  musicCount="{{index + 1}}"
+  songCount="{{songCount}}"></songItem>
+</view>
